@@ -15,6 +15,7 @@ class CreateCostumes < ActiveRecord[5.1]
       t.float :price
       t.string :size
       t.string :image_url
+      t.timestamps null: false
     end
   end
 end
